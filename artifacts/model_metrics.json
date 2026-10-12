@@ -1,0 +1,35 @@
+{
+  "validation_results": [
+    {
+      "model": "Gradient Boosting",
+      "r2": 0.8009621042572163,
+      "mae_lakhs": 33.020017653298815,
+      "rmse_lakhs": 64.48334342592636
+    },
+    {
+      "model": "Random Forest",
+      "r2": 0.7942023029994341,
+      "mae_lakhs": 33.00754536080508,
+      "rmse_lakhs": 65.56920479927182
+    },
+    {
+      "model": "Linear Regression",
+      "r2": 0.6866911571237475,
+      "mae_lakhs": 47.63214647187275,
+      "rmse_lakhs": 80.90325365722406
+    },
+    {
+      "model": "Decision Tree",
+      "r2": 0.6817660485570658,
+      "mae_lakhs": 41.84454584926282,
+      "rmse_lakhs": 81.53665996131765
+    }
+  ],
+  "selected_model": "Gradient Boosting",
+  "test_metrics": {
+    "r2": 0.788159926853838,
+    "mae_lakhs": 32.97296035942867,
+    "rmse_lakhs": 67.7317079829019
+  },
+  "rows_used": 80000
+}

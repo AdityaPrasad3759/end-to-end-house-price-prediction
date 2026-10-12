@@ -1,0 +1,72 @@
+{
+  "target": "Price_INR_Lakhs",
+  "features": [
+    "City",
+    "Locality_Type",
+    "Property_Type",
+    "BHK",
+    "Bathrooms",
+    "Super_Area_SqFt",
+    "Carpet_Area_SqFt",
+    "Floor_Number",
+    "Total_Floors",
+    "Age_of_Property",
+    "Furnishing_Status",
+    "Parking",
+    "Lift_Available",
+    "Gated_Community",
+    "Distance_to_Metro_km",
+    "Distance_to_City_Center_km"
+  ],
+  "categorical_features": [
+    "City",
+    "Locality_Type",
+    "Property_Type",
+    "Furnishing_Status"
+  ],
+  "numeric_features": [
+    "BHK",
+    "Bathrooms",
+    "Super_Area_SqFt",
+    "Carpet_Area_SqFt",
+    "Floor_Number",
+    "Total_Floors",
+    "Age_of_Property",
+    "Parking",
+    "Lift_Available",
+    "Gated_Community",
+    "Distance_to_Metro_km",
+    "Distance_to_City_Center_km"
+  ],
+  "selected_model": "Gradient Boosting",
+  "categorical_options": {
+    "City": [
+      "Ahmedabad",
+      "Bangalore",
+      "Chandigarh",
+      "Chennai",
+      "Delhi",
+      "Hyderabad",
+      "Jaipur",
+      "Kolkata",
+      "Mumbai",
+      "Pune"
+    ],
+    "Locality_Type": [
+      "Affordable",
+      "Mid-Range",
+      "Premium"
+    ],
+    "Property_Type": [
+      "Apartment",
+      "Builder Floor",
+      "Independent House",
+      "Villa"
+    ],
+    "Furnishing_Status": [
+      "Furnished",
+      "Semi-Furnished",
+      "Unfurnished"
+    ]
+  }
+}
